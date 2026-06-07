@@ -203,6 +203,11 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# MLflow local tracking (modelo de producción en artifacts/)
+mlflow.db
+mlruns/
+mlartifacts/
+
 # Ruff stuff:
 .ruff_cache/
 
