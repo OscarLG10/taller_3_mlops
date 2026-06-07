@@ -203,9 +203,8 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
-# MLflow local tracking (modelo de producción en artifacts/)
-mlflow.db
-mlruns/
+# MLflow: mlflow.db y mlruns/ se versionan para revisión del taller.
+# Modelo en producción (API): artifacts/model.pkl
 mlartifacts/
 
 # Ruff stuff:

@@ -1,0 +1,23 @@
+artifact_path: /Users/oscarlotero/Documents/learning/ai_specialization/ml_ops/taller_3_mlops/mlruns/1/models/m-d19bf7063e3a4cf8a5168050fd77c70e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-d19bf7063e3a4cf8a5168050fd77c70e
+model_size_bytes: 308562
+model_uuid: m-d19bf7063e3a4cf8a5168050fd77c70e
+prompts: null
+run_id: 0b02e8c32eaf412aad1fd6eb598826be
+utc_time_created: '2026-06-07 01:51:55.051151'
